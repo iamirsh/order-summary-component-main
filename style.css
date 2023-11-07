@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+.container {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    max-width: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+.main{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+}
+.hero img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+.orderSummary{
+    align-items: center;
+}
+.plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #d6d2c7;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0;
+}
+.proceed-btn, .cancel-btn{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-bottom: 5px;
+}

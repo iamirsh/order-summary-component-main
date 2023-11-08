@@ -1,45 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
- <div class="container">
-  <div class="hero">
-    <img src = "./images/illustration-hero.svg" alt="Hero image"/>
-  </div>
-  <div class="main">
-    
-    <div class="orderSummary">
-      <h2>Order Summary</h2>
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-    </div>
-    <div class="plan">
-      <img src = "./images/icon-music.svg" alt="Hero image"/>
-      <div class="price">
-        <h4>Annual Plan</h4>
-        <p>$59.99/year</p>
+<html lang="en-US">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale>2"
+    />
+    <title>Order Summary Component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="./images/illustration-hero.svg" alt="" />
+        <header>
+          <h1>Order Summary</h1>
+          <p>
+            You can now listen to millions of songs, audiobooks and podcasts on
+            any device anywhere you like!
+          </p>
+        </header>
+        <main>
+          <div class="music-icon">
+            <img src="./images/icon-music.svg" alt="" />
+          </div>
+          <div class="annual-plan">
+            <h2>Annual Plan</h2>
+            <p>$59.99/year</p>
+          </div>
+          <div class="plan-change">
+            <a href="">Change</a>
+          </div>
+        </main>
+        <div class="btn-section">
+          <button>Proceed to Payment</button>
+          <a href="">Cancel Order</a>
+        </div>
       </div>
-      <a href="">Change</a>
     </div>
-    <button class="proceed-btn">Proceed to Payment</button>
-    <button class="cancel-btn">Cancel Order</button>
-  </div>
- </div>
-  
-  
-</body>
+  </body>
 </html>
